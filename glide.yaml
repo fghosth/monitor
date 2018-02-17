@@ -1,0 +1,6 @@
+package: jvole.com/monitor/serverInfo
+import:
+- package: github.com/shirou/gopsutil
+  version: ~2.17.12
+  subpackages:
+  - cpu
